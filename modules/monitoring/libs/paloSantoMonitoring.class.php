@@ -20,10 +20,8 @@
   +----------------------------------------------------------------------+
   | The Initial Developer of the Original Code is PaloSanto Solutions    |
   +----------------------------------------------------------------------+
-  $Id: paloSantoMonitoring.class.php, Thu 20 May 2021 03:34:57 PM EDT, nicolas@issabel.com
+  $Id: paloSantoMonitoring.class.php, Fri 23 May 2025 06:41:52 PM EDT, nicolas@issabel.com
 */
-
-define ('DEFAULT_ASTERISK_RECORDING_BASEDIR', '/var/spool/asterisk/monitor');
 
 class paloSantoMonitoring
 {
@@ -58,6 +56,8 @@ class paloSantoMonitoring
 
     private function _construirWhereMonitoring($param)
     {
+        global $arrConfModule;
+        $basedir = $arrConfModule['records_dir'];
         $condSQL = array();
         $paramSQL = array();
 
@@ -147,7 +147,7 @@ SQL_COND_EXTENSION;
                 $fieldSQL[] = 'recordingfile LIKE ?';
                 $paramSQL[] = $p.'%';
                 $fieldSQL[] = 'recordingfile LIKE ?';
-                $paramSQL[] = DEFAULT_ASTERISK_RECORDING_BASEDIR.'%/'.$p.'%';
+                $paramSQL[] = $basedir.'%/'.$p.'%';
             }
 
             $condSQL[] = '('.implode(' OR ', $fieldSQL).')';
@@ -252,7 +252,8 @@ SQL_COND_EXTENSION;
 
     private function _rutaAbsolutaGrabacion($file)
     {
-        $basedir = DEFAULT_ASTERISK_RECORDING_BASEDIR.'/';
+        global $arrConfModule;
+        $basedir = $arrConfModule['records_dir'];
 
         /* Si la ruta almacenada en recordingfile es absoluta, sólo se acepta
          * si luego de canonicalizar inicia en /var/spool/asterisk/monitor */
