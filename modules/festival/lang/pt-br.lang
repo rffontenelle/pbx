@@ -1,8 +1,8 @@
 <?php
-/* vim: set expandtab tabstop=4 softtabstop=4 shiftwidth=4:
+  /* vim: set expandtab tabstop=4 softtabstop=4 shiftwidth=4:
   Codificación: UTF-8
   +----------------------------------------------------------------------+
-  | Issabel version 0.5                                                  |
+  | Issabel version 4.0.4-5                                               |
   | http://www.issabel.org                                               |
   +----------------------------------------------------------------------+
   | Copyright (c) 2006 Palosanto Solutions S. A.                         |
@@ -19,29 +19,22 @@
   +----------------------------------------------------------------------+
   | The Initial Developer of the Original Code is PaloSanto Solutions    |
   +----------------------------------------------------------------------+
-  $Id: es.lang,v 1.7 2007/09/05 00:36:42 alex Exp $ */
+  $Id: en.lang,v 1.1 2011-04-14 11:04:34 Alberto Santos asantos@palosanto.com Exp $ */
 global $arrLangModule;
-$arrLangModule = array(
-    "Command" => "Comando",
-    "Execute" => "Executar",
-    "Result" => "Resultado",
-    "Back" => "Voltar",
-    "File Editor" => "Editor de arquivos Asterisk",
-    "File List" => "Nome do arquivo",
-    "File Size" => "Tamanho do arquivo",
-    "Back" => "voltar",
-    "This file doesn't have permisses to read" => "Sem permissão de leitura",
-    "This file doesn't have permisses to write" => "Sem permissão de escrita",
-    "The changes was saved in the file" => "As mudanças foram salvas no arquivo",
-    "Doesn't have permisses to read" => "Sem permissão de leitura",
-    "This is not a valid directory" => "Este não é um diretório válido",
-    "Please write the file name" => "Escreva o nome do arquivo",
-    "New File" => "Nome do arquivo",
-    "File already exist" => "O arquivo já existe",
-    "File" => "Arquivo",
-    "Filter" => "Filtro",
-    "Reload Asterisk" => "Recarregar o Asterisk",
-    "Asterisk has been reloaded" => "Asterisk foi recarregado",
-    "Error when connecting to Asterisk Manager" => "Erro ao conectar ao Asterisk Manager"
+$arrLangModule=array(
+"Festival" => "Festival",
+"Status" => "Status",
+"File could not be found in the following path" => "O arquivo não pôde ser encontrado no seguinte caminho",
+"Could not write the configuration on file" => "Não foi possível escrever a configuração no arquivo",
+"Error determining status of festival" => "Erro ao determinar o status de festival",
+"Festival is already activated" => "Festival já está ativo",
+"Message" => "Mensagem",
+"Festival has been successfully activated" => "Festival foi ativado com sucesso",
+"Festival could not be activated" => "Festival não pôde ser ativado",
+"Festival is already deactivated" => "Festival já está desativado",
+"The file /usr/share/festival/festival.scm was modified" => "O arquivo /usr/share/festival/festival.scm foi modificado",
+"Festival has been successfully deactivated" => "Festival foi desativado com sucesso",
+"Festival could not be deactivated" => "Festival não pôde ser desativado",
+"Dismiss" => "Descartar"
 );
 ?>

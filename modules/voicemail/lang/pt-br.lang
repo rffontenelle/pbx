@@ -2,7 +2,7 @@
   /* vim: set expandtab tabstop=4 softtabstop=4 shiftwidth=4:
   Codificación: UTF-8
   +----------------------------------------------------------------------+
-  | Issabel version 4.0.0-18                                               |
+  | Issabel version 1.4-1                                               |
   | http://www.issabel.org                                               |
   +----------------------------------------------------------------------+
   | Copyright (c) 2006 Palosanto Solutions S. A.                         |
@@ -19,34 +19,39 @@
   +----------------------------------------------------------------------+
   | The Initial Developer of the Original Code is PaloSanto Solutions    |
   +----------------------------------------------------------------------+
-  $Id: pt-br.lang,v 1.0 2025-05-10 10:06:23 Rafael Fontenelle rffontenelle@gmail.com Exp $ */
+  $Id: en.lang,v 1.1 2008-11-11 09:11:49 jvega jvega@palosanto.com Exp $ */
 global $arrLangModule;
 $arrLangModule=array(
-"Monitoring" => "Lista de Monitoramento",
+"Pager Email Address" => "Endereço de e-mail do pager",
+"Confirm Password" => "Confirmar senha",
+"Email Attachment" => "Endereço de e-mail",
+"Play CID" => "Reproduzir CID",
+"Play Envelope" => "Reproduzir envelope",
+"Delete Vmail" => "Excluir Vmail",
+"Required Field" => "Campo obrigatório",
+"Filter" => "Filtro",
+"Configuration" => "Configuração",
+"Start Date" => "Data de início",
+"End Date" => "Data de fim",
+"Voicemail List" => "Lista de correio de voz",
+"Are you sure you wish to delete voicemails?" => "Tem certeza de que deseja excluir mensagens de correio de voz?",
 "Date" => "Data",
 "Time" => "Hora",
-"Source" => "Fonte",
-"Destination" => "Destino",
+"Message" => "Mensagem",
+"CallerID" => "CallerID",
+"Extension" => "Ramal",
 "Duration" => "Duração",
+"Email" => "E-mail",
+"Status" => "Status",
+"Enable" => "Habilitar",
+"Disable" => "Desabilitar",
+"Yes" => "Sim",
+"No" => "Não",
+"no_file" => "O arquivo foi encontrado!",
+"no_extension" => "Não é permitido baixar este arquivo",
 "Download" => "Baixar",
 "Listen" => "Ouvir",
-"Type" => "Tipo",
-"Message" => "Mensagem",
-"Start_Date" => "Data de início",
-"End_Date" => "Data de fim",
-"message_alert" => "Tem certeza que deseja excluir as gravações?",
-"no_extension" => "Não há um número de ramal associado ao usuário atual. Você pode associar um número de ramal ao seu usuário clicando <a href=\"javascript: openWindow('index.php?menu=userlist&amp;action=edit_userExtension&amp;rawmode=yes');\">aqui</a>",
-"no_file" => "Arquivo não encontrado!",
-"Outgoing" => "Saída",
-"Incoming" => "Entrada",
-"Queue" => "Fila",
-"Group" => "Grupo",
-"unknown" => "Desconhecido",
-"delete_file_error" => "Pelo menos um dos arquivos selecionados não pode ser excluído porque não existe",
-"contact_admin" => "Não há um número de ramal associado ao usuário atual. Entre em contato com o administrador para atribuir um ramal.",
-"You are not authorized to download this file" => "Você não está autorizado a baixar este arquivo",
-"You are not authorized to listen this file" => "Você não está autorizado a ouvir este arquivo",
-"You are not authorized to delete any records" => "Você não está autorizado a excluir nenhum registro",
-'Recording missing' => 'Gravação faltando',
+"no_extension_assigned" => "Não há um número de ramal associado ao usuário atual. Você pode associar um número de ramal ao seu usuário clicando <a href=\"javascript: openWindow('index.php?menu=userlist&amp;action=edit_userExtension&amp;rawmode=yes');\">aqui</a>",
+"contact_admin" => "Não há um número de ramal associado ao usuário atual. Entre em contato com o administrador para atribuir um ramal."
 );
 ?>

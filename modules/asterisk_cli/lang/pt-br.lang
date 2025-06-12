@@ -2,7 +2,7 @@
 /* vim: set expandtab tabstop=4 softtabstop=4 shiftwidth=4:
   Codificación: UTF-8
   +----------------------------------------------------------------------+
-  | Issabel version 0.5                                                  |
+  | Issabel version 1.0                                                  |
   | http://www.issabel.org                                               |
   +----------------------------------------------------------------------+
   | Copyright (c) 2006 Palosanto Solutions S. A.                         |
@@ -18,30 +18,15 @@
   | limitations under the License.                                       |
   +----------------------------------------------------------------------+
   | The Initial Developer of the Original Code is PaloSanto Solutions    |
+  |                                                                      |
+  | Translate by: Bruno Macias                                           |
+  | Email: bmacias@palosanto.com                                         |
   +----------------------------------------------------------------------+
-  $Id: es.lang,v 1.7 2007/09/05 00:36:42 alex Exp $ */
+  $Id: en.lang,v 1.7 2008/02/18 09:49:00 bmacias Exp $ */
 global $arrLangModule;
-$arrLangModule = array(
-    "Command" => "Comando",
-    "Execute" => "Executar",
-    "Result" => "Resultado",
-    "Back" => "Voltar",
-    "File Editor" => "Editor de arquivos Asterisk",
-    "File List" => "Nome do arquivo",
-    "File Size" => "Tamanho do arquivo",
-    "Back" => "voltar",
-    "This file doesn't have permisses to read" => "Sem permissão de leitura",
-    "This file doesn't have permisses to write" => "Sem permissão de escrita",
-    "The changes was saved in the file" => "As mudanças foram salvas no arquivo",
-    "Doesn't have permisses to read" => "Sem permissão de leitura",
-    "This is not a valid directory" => "Este não é um diretório válido",
-    "Please write the file name" => "Escreva o nome do arquivo",
-    "New File" => "Nome do arquivo",
-    "File already exist" => "O arquivo já existe",
-    "File" => "Arquivo",
-    "Filter" => "Filtro",
-    "Reload Asterisk" => "Recarregar o Asterisk",
-    "Asterisk has been reloaded" => "Asterisk foi recarregado",
-    "Error when connecting to Asterisk Manager" => "Erro ao conectar ao Asterisk Manager"
+$arrLangModule=array(
+"Asterisk-Cli"=>"Asterisk-Cli",
+"Command"=> "Comando",
+"Execute"=> "Executar",
 );
 ?>
