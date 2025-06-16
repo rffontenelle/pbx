@@ -24,7 +24,7 @@ global $arrLangModule;
 $arrLangModule=array(
 "Pager Email Address" => "Endereço de e-mail do pager",
 "Confirm Password" => "Confirmar senha",
-"Email Attachment" => "Endereço de e-mail",
+"Email Attachment" => "Anexo de e-mail",
 "Play CID" => "Reproduzir CID",
 "Play Envelope" => "Reproduzir envelope",
 "Delete Vmail" => "Excluir Vmail",

@@ -27,7 +27,7 @@ global $arrLangModule;
 $arrLangModule=array(
 "Recordings" => "Gravações",
 "Record Name" => "Nome da gravação",
-"Record" => "Gravação",
+"Record" => "Gravar",
 "Insert the Recording Name" => "Insira o nome da gravação",
 "The recording couldn't be realized" => "A gravação não pôde ser realizada",
 "The recording was saved" => "A gravação foi salva",
